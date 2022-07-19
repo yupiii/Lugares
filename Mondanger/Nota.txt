@@ -1,3 +1,4 @@
 ﻿Se agrego a Git
 con la Ruta:
 https://github.com/yupiii/MONDANGER.git
+fecha 18/07/2022
