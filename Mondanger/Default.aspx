@@ -23,9 +23,12 @@
   <!--========================================================== -->
     <header class="container-fluid bg-primary d-flex justify-content-center">
         <div class="page-header">
-            <img src="./eroforrasok/logo3.jpg" class="img-fluid page-header" alt="Responsive image" />
-        </div>
-        <p class="text-light mb-0 p-2 fs-6">Contactanos (52) 444 235 4980</p>
+            <img src="img/MONDANGER3.png" class="img-fluid page-header" alt="Responsive image" />
+        <div>
+        <br />
+            <div>
+                 <p class="text-light mb-0 p-2 fs-6">Contactanos (52) 444 235 4980</p>
+            </div>       
     </header> 
 
     <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
@@ -63,16 +66,16 @@
          <%--inicio carousel -slider--%>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <%--clase principal--%>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="img/slide1.jpg" class="d-block w-100" alt="Slide1"/>
+            <div class="carousel-inner align-content-lg-center">
+                <div class="carousel-item active align-content-center " data-bs-interval="3000">
+                    <img src="img/Mondanger_Slider1.jpg" class="d-block w-25 align-content-center" alt="Slide1"/>
                 </div>
                 <%--data-bs-interval es la velocidad--%>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="img/slide2.jpg" class="d-block w-100" alt="Slide2"/>
+                <div class="carousel-item align-content-center" data-bs-interval="3000">
+                    <img src="img/Mondanger_Slider2.jpg" class="d-block w-25 align-content-center" alt="Slide2"/>
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="img/slide3.jpg" class="d-block w-100" alt="Slide3"/>
+                <div class="carousel-item align-content-center" data-bs-interval="3000">
+                    <img src="img/Mondanger_Slider3.jpg" class="d-block w-25 align-content-center" alt="Slide3"/>
                 </div>
             </div>
             <%--fin clase principal--%>

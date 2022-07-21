@@ -100,6 +100,13 @@
     <Content Include="img\equipo.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="img\mapa.PNG" />
+    <Content Include="img\MONDANGER2.png" />
+    <Content Include="img\MONDANGER3.png" />
+    <Content Include="img\Mondanger_Encabezado.png" />
+    <Content Include="img\Mondanger_Encabezado2.png" />
+    <Content Include="img\Mondanger_Slider1.jpg" />
+    <Content Include="img\Mondanger_Slider2.jpg" />
+    <Content Include="img\Mondanger_Slider3.jpg" />
     <Content Include="img\seo.png" />
     <Content Include="img\slide1.jpg" />
     <Content Include="img\slide2.jpg" />
