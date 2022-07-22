@@ -63,19 +63,22 @@
     <!--========================================================== -->
                         <!-- SLIDER DE IMAGENES-->
     <!--========================================================== -->
-         <%--inicio carousel -slider--%>
+    <h3 class="card-title text-center" style="margin-top: 10px;">O F E R T A S</h3>    
+    <div class="container">
+        <div class="row justify-content-center">
+        <%--inicio carousel -slider--%>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <%--clase principal--%>
-            <div class="carousel-inner align-content-lg-center">
-                <div class="carousel-item active align-content-center " data-bs-interval="3000">
-                    <img src="img/Mondanger_Slider1.jpg" class="d-block w-25 align-content-center" alt="Slide1"/>
+            <div class="carousel-inner">
+                <div class="carousel-item active col-sm-8 col-sm-offset-2" data-bs-interval="3000">
+                    <img src="img/Mondanger_Slider1.jpg" class="rounded mx-auto d-block" alt="Slide1"/>
                 </div>
                 <%--data-bs-interval es la velocidad--%>
-                <div class="carousel-item align-content-center" data-bs-interval="3000">
-                    <img src="img/Mondanger_Slider2.jpg" class="d-block w-25 align-content-center" alt="Slide2"/>
+                <div class="carousel-item col-sm-8 col-sm-offset-2" data-bs-interval="3000">
+                    <img src="img/Mondanger_Slider2.jpg" class="rounded mx-auto d-block" alt="Slide2"/>
                 </div>
-                <div class="carousel-item align-content-center" data-bs-interval="3000">
-                    <img src="img/Mondanger_Slider3.jpg" class="d-block w-25 align-content-center" alt="Slide3"/>
+                <div class="carousel-item col-sm-8 col-sm-offset-2" data-bs-interval="3000">
+                    <img src="img/Mondanger_Slider3.jpg" class="rounded mx-auto d-block" alt="Slide3"/>
                 </div>
             </div>
             <%--fin clase principal--%>
@@ -94,6 +97,7 @@
         </div>
         <%--fin carousel -slider--%>
     </div>
+</div>
 
      
     <!--========================================================== -->
