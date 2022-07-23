@@ -63,52 +63,52 @@
     <!--========================================================== -->
                         <!-- SLIDER DE IMAGENES-->
     <!--========================================================== -->
-    <h3 class="card-title text-center" style="margin-top: 10px;">O F E R T A S</h3>    
+    <h1 class="card-title text-center" style="margin-top: 10px;"><b>O F E R T A S</b></h1>
     <div class="container">
         <div class="row justify-content-center">
-        <%--inicio carousel -slider--%>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <%--clase principal--%>
-            <div class="carousel-inner">
-                <div class="carousel-item active col-sm-8 col-sm-offset-2" data-bs-interval="3000">
-                    <img src="img/Mondanger_Slider1.jpg" class="rounded mx-auto d-block" alt="Slide1"/>
+            <%--inicio carousel -slider--%>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <%--clase principal--%>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="img/Mondanger_Slider1.jpg" alt="First slide" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="img/Mondanger_Slider2.jpg" alt="Second slide" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="img/Mondanger_Slider3.jpg" alt="Third slide" />
+                    </div>
                 </div>
-                <%--data-bs-interval es la velocidad--%>
-                <div class="carousel-item col-sm-8 col-sm-offset-2" data-bs-interval="3000">
-                    <img src="img/Mondanger_Slider2.jpg" class="rounded mx-auto d-block" alt="Slide2"/>
-                </div>
-                <div class="carousel-item col-sm-8 col-sm-offset-2" data-bs-interval="3000">
-                    <img src="img/Mondanger_Slider3.jpg" class="rounded mx-auto d-block" alt="Slide3"/>
-                </div>
+                <%--fin clase principal--%>
+                <%--controles para mover--%>
+                <a class="carousel-control-prev"
+                    href="#carouselExampleControls"
+                    role="button"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <%--fin clase principal--%>
-            <%--controles para mover--%>
-            <button class="carousel-control-prev" type="button" 
-                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" 
-                data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
             <%--fin controles para mover--%>
         </div>
         <%--fin carousel -slider--%>
     </div>
-</div>
 
-     
+
     <!--========================================================== -->
                         <!-- INTRODUCCION DE SERVICIOS-->
     <!--========================================================== -->
 
 
     <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
-    <h1 class="p-3 fs-2 border-top border-3">Una agencia única para todas tus necesidades de <span class="text-primary">Marketing Digital<span/></h1>
+    <h1 class="p-3 fs-2 border-top border-3">Somos un negocio familiar, nos dedicamos a cubrir todas tus necesidades de <span class="text-primary">Llantas</span></h1>
      <p class="p-3  fs-4">
-         <span class="text-primary">ExpertD.</span> es la agencia donde te ayudamos establecer tu presencia online. SEO, paginas WEB, tiendas virtuales, redes sociales        
+         <span class="text-primary">Mondanger.</span> te ofrece nuestro amplio surtido, para todo tipo de véhiculo.        
      </p>   
     </section>
 
@@ -123,38 +123,39 @@
             <img src="./img/desarrollo.png" alt="desarrollo"   width="180" height="160">
 
             <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
-                <p class="px-4">Desarrollo de aplicaciones WEB, moviles y ecommerce</p>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Contacto</h3>
+                <p class="px-4">Nos puedes solicitar cotización, SIN COMPROMISO!!!</p>
             </div>
 
         </div>
 
         <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
-            <img src="./img/concepto.png" alt="concepto" width="180" height="160">
+            <img src="./img/concepto.png" alt="concepto" width="180" height="160"/>
 
             <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Branding</h3>
-                <p class="px-4">Diseño, Conceptualización e Implementación de productos digitales</p>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Economicas</h3>
+                <p class="px-4">Excelentes precios, que hacen sufrir a la competencia!!!</p>
             </div>
         </div>   
     </div>
     
     <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
         <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
-            <img src="./img/comunicaciones.png" alt="comunicaciones" width="180" height="160">
+            <img src="./img/comunicaciones.png" alt="comunicaciones" width="180" height="160"/>
 
             <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1">Comunicaciones</h3>
-                <p class="px-4">Desarrollo  del plan de comunicaciones para sus clientes.</p>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Rápidez</h3>
+                <p class="px-4">Te atendemos rápidamente para cubrir tus necesidades.</p>
             </div>
         </div>
 
         <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-            <img src="./img/seo.png" alt="seo" width="180" height="160" >
+            <img src="./img/seo.png" alt="seo" width="180" height="160" />
 
             <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1">SEO</h3>
-                <p class="px-4">Analizamos la eficiencia y optimizamos los sitios WEB</p>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Variedad</h3>
+                <p class="px-4">Tenemos Llantas para todos los tipos de vehículos
+                </p>
             </div>
         </div>   
     </div>
@@ -166,22 +167,22 @@
 
 <section>
     <div class="container w-50 m-auto text-center" id="equipo">
-        <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
-        <p class="fs-4 ">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo para este reto, te esperamos para que te unas a nosotros.</p>
+        <h1 class="mb-5 fs-2">Somos un negocio pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
+        <p class="fs-4 ">Nosotros pensamos en nuestros clientes, si existe alguna duda o aclaración, tengan la confianza que se las resolveremos, GRACIAS POR CONFIAR EN NOSOTROS.</p>
     </div>
 
     <div class="mt-5 text-center">
-        <img id="img-equipo" src="./img/equipo.jpg" alt="equipo">
+        <img id="img-equipo" src="img/Mondager_equipo.png" alt="equipo">
     </div>
 
     <div id="local" class="border-top border-2">
         <div class="mapa"> </div>
         <div>
             <div class="wrapper-local">
-                <h2>Ubicado en Miami, Florida</h2>
+                <h2>Ubicado en San Luis Potosí, México</h2>
                 <h2 class="text-primary mb-4" id="typewriter"></h2>
-                <p class="fs-5 text-body">Elijimos Miami para nuestra oficina con el objetivo de estar cerca a nuestros clientes. Estamos ubicados en Brickell, el corazon y el centro financiero de Miami, cerca de los mejores restaurantes, tiendas y tan solo 15 minutos de las playas. ¡Visitennos y no se arrepentiran!</p>
-                <section class="d-flex justify-content-start" id="numeros-local">
+                <%--<p class="fs-5 text-body">Elijimos Miami para nuestra oficina con el objetivo de estar cerca a nuestros clientes. Estamos ubicados en Brickell, el corazon y el centro financiero de Miami, cerca de los mejores restaurantes, tiendas y tan solo 15 minutos de las playas. ¡Visitennos y no se arrepentiran!</p>--%>
+  <%--              <section class="d-flex justify-content-start" id="numeros-local">
                     <div>
                         <p class="text-primary fs-5">200</p>
                         <p>Dias de Sol</p>
@@ -194,7 +195,7 @@
                         <p class="text-primary fs-5">24 °C</p>
                         <p>Temperatura</p>
                     </div>
-              </section>
+              </section>--%>
             </div>
         </div>
     </div>
