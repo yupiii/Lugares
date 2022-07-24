@@ -176,9 +176,13 @@
     </div>
 
     <div id="local" class="border-top border-2">
-        <div class="mapa"> </div>
-        <div>
-            <div class="wrapper-local">
+    <%--    <div class="mapa"> </div>
+        <div>--%> 
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.664883472082!2d-100.95892228561236!3d22.138749354335456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842aa23da25fdcb3%3A0x7ac55772b28af8b6!2zMjLCsDA4JzE5LjMiTiAxMDDCsDU3JzIzLjciVw!5e0!3m2!1ses-419!2smx!4v1658650113066!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+           <div class="wrapper-local">
                 <h2>Ubicado en San Luis Potosí, México</h2>
                 <h2 class="text-primary mb-4" id="typewriter"></h2>
                 <%--<p class="fs-5 text-body">Elijimos Miami para nuestra oficina con el objetivo de estar cerca a nuestros clientes. Estamos ubicados en Brickell, el corazon y el centro financiero de Miami, cerca de los mejores restaurantes, tiendas y tan solo 15 minutos de las playas. ¡Visitennos y no se arrepentiran!</p>--%>
@@ -198,10 +202,9 @@
               </section>--%>
             </div>
         </div>
-    </div>
+   
 
 </section>
-
 
 <!--========================================================== -->
                         <!-- SECCION CONTACTOS-->
@@ -221,24 +224,24 @@
       <div class="text-center mb-4" id="titulo-formulario">
         <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
         <h2>Contactanos</h2>
-        <p class="fs-5">Estamos aqui para hacer realidad de tus proyectos</p>
+        <p class="fs-5">Estamos aqui para darte un servicio de calidad,</p>
       </div>
 
      
 
       <form   method="POST" data-netlify="true" action="#">     
             <div class= "mb-3">           
-              <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+              <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com"/>
             </div>
  
           
             <div class="mb-3">            
-              <input type="input" class="form-control" id="name" name="name" placeholder="John Doe">
+              <input type="input" class="form-control" id="name" name="name" placeholder="John Doe"/>
             </div>
       
 
             <div class="mb-3">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono"/>
             </div>
 
           <div class="mb-3">       
